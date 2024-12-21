@@ -162,7 +162,7 @@ class _TextTypeHcOrderState extends State<TextTypeHcOrder> {
                       ),
                       pw.TableRow(
                         children: [
-                          _buildCell('1', 10),
+                          _buildCell('', 10),
                           _buildCell('', 60),
                           _buildCell('${_orderController.text}', 200),
                           _buildCell('', 40),
